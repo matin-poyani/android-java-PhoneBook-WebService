@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNormal"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <CustomControls.CustomEditText
+            android:id="@+id/edtName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorLightest"
+            android:textSize="12sp" />
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <CustomControls.CustomEditText
+            android:id="@+id/edtMobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:hint="@string/mobile"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorLightest"
+            android:textSize="12sp" />
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <CustomControls.CustomEditText
+            android:id="@+id/edtAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:hint="@string/address"
+            android:inputType="text"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorLightest"
+            android:textSize="12sp" />
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lytFemale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.5"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <CustomControls.CustomTextViewBold
+                android:id="@+id/txtFemale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="@string/female"
+                android:textColor="@color/colorLightest"
+                android:textSize="8sp" />
+
+            <ImageView
+                android:id="@+id/imgFemale"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/female"
+                android:tint="@color/colorLightest" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lytMale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.5"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <CustomControls.CustomTextViewBold
+                android:id="@+id/txtMale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="@string/male"
+                android:textColor="@color/colorAccent"
+                android:textSize="8sp" />
+
+            <ImageView
+                android:id="@+id/imgMale"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/male"
+                android:tint="@color/colorAccent" />
+        </LinearLayout>
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/chkFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            app:buttonTint="@color/colorAccent" />
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/friend"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <CustomControls.CustomSeekBar
+            android:id="@+id/sbScore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <CustomControls.CustomButtonBold
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/save"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:backgroundTint="@color/colorLightest" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="colorPrimary">@color/colorNormal</item>
+        <item name="colorPrimaryDark">@color/colorDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Make dialog width 90 percent -->
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+</resources>

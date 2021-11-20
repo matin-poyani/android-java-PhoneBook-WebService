@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorDarkest"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CustomControls.CustomTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/logo" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_margin="8dp"
+        android:id="@+id/swpReload"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPersons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <CustomControls.CustomButtonBold
+        android:id="@+id/btnNewRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_record"
+        android:textColor="@color/colorDarkest"
+        android:textSize="16sp"
+        app:backgroundTint="@color/colorLightest" />
+</LinearLayout>

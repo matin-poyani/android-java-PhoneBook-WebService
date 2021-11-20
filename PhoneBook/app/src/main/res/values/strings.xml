@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">دفتر تلفن</string>
+    <string name="loading">در حال بارگذاری</string>
+    <string name="new_record">ثبت اطلاعات جدید</string>
+    <string name="confirm_exit">برای خروج مجدداً فشار دهید</string>
+    <string name="name">نام</string>
+    <string name="mobile">موبایل</string>
+    <string name="phone">تلفن</string>
+    <string name="show">نمایش</string>
+    <string name="address">نشانی</string>
+    <string name="friend">دوست</string>
+    <string name="edit">ویرایش</string>
+    <string name="title">عنوان</string>
+    <string name="message">پیغام</string>
+    <string name="no">خیر</string>
+    <string name="yes">بله</string>
+    <string name="confirm_delete_title">تأیید حذف</string>
+    <string name="confirm_delete_message">آیا از حذف این فرد اطمینان دارید؟</string>
+    <string name="delete_ok">فرد موردنظر با موفقیت حذف شد.</string>
+    <string name="delete_error">مشکلی در حذف فرد موردنظر پیش آمده است. لطفاً دوباره سعی کنید.</string>
+    <string name="female">مؤنث</string>
+    <string name="male">مذکر</string>
+    <string name="gender">جنسیت</string>
+    <string name="score">امتیاز</string>
+    <string name="save">ذخیره</string>
+    <string name="save_success">فرد موردنظر با موفقیت ثبت شد.</string>
+    <string name="save_error">در زمان ثبت خطایی رخ داد. لطفاً دوباره امتحان کنید.</string>
+    <string name="half_loaded">2.5</string>
+    <string name="download_confirm_title">تأیید بارگذاری مجدد</string>
+    <string name="download_confirm_message">آیا قصد دریافت مجدد اطلاعات این فرد را دارید؟ تغییرات قبلی از بین خواهد رفت</string>
+    <string name="upload_confirm_title">تأیید ارسال به سرور</string>
+    <string name="upload_confirm_message">آیا قصد ارسال تغییرات این فرد به سرور را دارید؟</string>
+    <string name="reload_confirm_title">دانلود اطلاعات از سرور</string>
+    <string name="reload_confirm_message">با این کار تغییرات اطلاعات روی دستگاه شما از بین خواهد رفت. آیا مطمئن هستید؟</string>
+    <string name="download_success_message">اطلاعات دریافت شد</string>
+    <string name="download_error_message">خطا در دریافت اطلاعات</string>
+</resources>

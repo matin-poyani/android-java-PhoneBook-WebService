@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDarkest"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <CustomControls.CustomTextViewBold
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/title"
+            android:textColor="@color/colorDarkest"
+            android:textSize="16sp" />
+
+        <CustomControls.CustomTextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/message"
+            android:textColor="@color/colorNormal"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CustomControls.CustomButtonBold
+                android:id="@+id/btnNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="@string/no"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:backgroundTint="@color/colorRed" />
+
+            <CustomControls.CustomButtonBold
+                android:id="@+id/btnYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/yes"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:backgroundTint="@color/colorGreen" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
